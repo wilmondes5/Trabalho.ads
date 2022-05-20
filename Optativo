@@ -21,6 +21,7 @@
   </fieldset>
   <fieldset>
       <legend>Dados acadêmicos</legend>
+<form>
      Curso <select>
          <option value="1">ADS</option>
          <option value="2">GTI</option>
@@ -33,12 +34,17 @@
          <input type="radio" id="Semestre">3°</input>
          <input type="radio" id="Semestre">4°</input>
          <br>
-  </fieldset>
-  <fieldset>
-      Trabalha? <input type="checkbox"><br>
-      Local de trabalho <input><br>
-      Descreva sua experiência<br> 
-      <textarea name="" id="" cols="50" rows="5"></textarea>
-  </fieldset>
+        </fieldset>
+            <fieldset>
+                Trabalha? <input type="checkbox"><br>
+                Local de trabalho <input><br>
+                Descreva sua experiência<br> 
+                <textarea name="" id="" cols="50" rows="5"></textarea>
+            
+                    <p><input type="submit" name="enviar" value="Enviar">
+                        <input type="reset" name="limpar" value="Limpar">
+                    </p>
+</form>
+        </fieldset>
 </body>
 </html>
